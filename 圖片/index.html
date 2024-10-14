@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>記憶力大考驗</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>記憶力大考驗</h1>
+    <div class="button-container">
+        <select id="theme-select">
+            <option value="0">家電</option>
+            <option value="1">壽司</option>
+        </select>
+        <select id="grid-size-select">
+            <option value="2">2x2</option>
+            <option value="4">4x4</option>
+            <option value="6">6x6</option>
+        </select>
+        <button id="start-game-btn">開始遊戲</button>
+        <button id="flip-all-front-btn">翻到正面</button>
+        <button id="flip-all-back-btn">翻到背面</button>
+        <button id="reload-btn">重整遊戲</button>
+    </div>
+    <div id="card-grid" class="grid-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
